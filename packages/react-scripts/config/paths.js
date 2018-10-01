@@ -80,7 +80,11 @@ module.exports = {
   appBuild: resolveApp('build'),
   appPublic: resolveApp('public'),
   appHtml: resolveApp('public/index.html'),
+<<<<<<< HEAD
   appIndexJs: resolveModule(resolveApp, 'src/index'),
+=======
+  appIndexJs: resolveApp('src/index.jsx'),
+>>>>>>> Modified and deleted certain files to my liking
   appPackageJson: resolveApp('package.json'),
   appSrc: resolveApp('src'),
   appTsConfig: resolveApp('tsconfig.json'),
@@ -103,7 +107,11 @@ module.exports = {
   appBuild: resolveApp('build'),
   appPublic: resolveApp('public'),
   appHtml: resolveApp('public/index.html'),
+<<<<<<< HEAD
   appIndexJs: resolveModule(resolveApp, 'src/index'),
+=======
+  appIndexJs: resolveApp('src/index.jsx'),
+>>>>>>> Modified and deleted certain files to my liking
   appPackageJson: resolveApp('package.json'),
   appSrc: resolveApp('src'),
   appTsConfig: resolveApp('tsconfig.json'),
@@ -137,9 +145,15 @@ if (
     dotenv: resolveOwn(`${templatePath}/.env`),
     appPath: resolveApp('.'),
     appBuild: resolveOwn('../../build'),
+<<<<<<< HEAD
     appPublic: resolveOwn(`${templatePath}/public`),
     appHtml: resolveOwn(`${templatePath}/public/index.html`),
     appIndexJs: resolveModule(resolveOwn, `${templatePath}/src/index`),
+=======
+    appPublic: resolveOwn('template/public'),
+    appHtml: resolveOwn('template/public/index.html'),
+    appIndexJs: resolveOwn('template/src/index.jsx'),
+>>>>>>> Modified and deleted certain files to my liking
     appPackageJson: resolveOwn('package.json'),
     appSrc: resolveOwn(`${templatePath}/src`),
     appTsConfig: resolveOwn(`${templatePath}/tsconfig.json`),
